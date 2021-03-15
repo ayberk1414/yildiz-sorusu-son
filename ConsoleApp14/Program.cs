@@ -26,7 +26,7 @@ namespace ConsoleApp14
                 {
                     Console.Write("*");
                 }
-                for (int l = counter - 1; l <= 0; l--)
+                for (int l = counter - 1; l >= 0; l--)
                 {
                     int boslukk = counter - l;
                     for (int j = 0; j < boslukk; j++)
