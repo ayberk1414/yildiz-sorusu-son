@@ -19,32 +19,31 @@ namespace ConsoleApp14
                 int bosluk = counter - i;
                 for (int j = 0; j < bosluk; j++)
                 {
-                    text += " ";
+                    Console.Write(" ");
                 }
                 int yildiz = 2 * i - 1;
                 for (int j=0; j  < yildiz; j++)
                 {
-                    text += "*";
+                    Console.Write("*");
                 }
-                text += "\n";
-                Console.WriteLine(text);
                 for (int l = counter - 1; l <= 0; l--)
                 {
                     int boslukk = counter - l;
                     for (int j = 0; j < boslukk; j++)
                     {
-                        text += "";
+                        Console.Write(" ");
                     }
                     int yildizz = 2 * l - 1;
                     for (int j = 0; j < yildizz; j++)
                     {
-                        text += "*";
+                        Console.Write("*");
                     }
-                    text += "\n";
-                    Console.WriteLine(text);
-                    Console.ReadLine();
+                   
+                   
+                   
 
                 }
+                Console.ReadLine();
           
             }
                 
